@@ -1,0 +1,87 @@
+/* body {
+  font-family: "Open Sans", "Roboto", arial, sans-serif;
+  background: linear-gradient(to bottom right, blueviolet, yellow);
+} */
+
+body {
+  font-family: "Open Sans", "Roboto", arial, sans-serif;
+  //background: gray url(https://subtlepatterns.com/patterns/geometry2.png) repeat 0 0;
+  //background: gray url(http://vectorpage.com/uploads/2015/09/Geometry-abstract-background-vector.png) repeat 0 0;
+  background: gray url(https://d2v9y0dukr6mq2.cloudfront.net/video/thumbnail/HsS-7f5Wlivl6ol5u/videoblocks-ornamental-kaleidoscope-soft-crystal-abstract-animation-seamless-loop-background-new-quality-retro-vintage-holiday-shape-colorful-universal-motion-dynamic-animated-joyful-music-cool-video-footage_helcpvkndz_thumbnail-full01.png) repeat 0 0;
+  width: 100%;
+  margin: 0;
+  text-align: center;
+  height: 300px;
+  padding-top: 120px;
+  box-sizing: border-box;
+  -webkit-animation: slide 450s linear infinite;
+}
+
+/* @-webkit-keyframes slide {
+    from { background-position: 0 0; }
+    to { background-position: -400px 0; }
+} */
+
+@-webkit-keyframes slide {
+    from { background-position: 0 0; }
+    to { background-position: -10500px 0; }
+}
+
+#root {
+  position: absolute;
+  top: 50%;
+  right: 0;
+  left: 0;
+  margin-right: auto;
+  margin-left: auto;
+  transform: translateY(-50%);
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 110%;
+  border-radius: .19rem;
+  box-shadow: 0px .19rem .41rem rgba(0,0,0,.25);
+}
+
+
+
+form {
+  height: 100%;
+  padding: 1.5rem;
+  background: #fafafa;
+}
+
+input {
+  background-color: transparent;
+  border-top: 0;
+  border-right: 0;
+  border-left: 0;
+  border-radius: 0;
+  color: #111;
+  font-size: 3rem;
+  padding: .3rem .5rem;
+  margin-bottom: 1rem;
+  display: block;
+}
+
+.input-error {
+  border-color: #FF0000;
+}
+
+.error {
+  color: #FF0000;
+  padding: .2rem;
+}
+
+.btn {
+  padding: .5rem 1.5rem;
+  font-size: 3rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: #F7DA1C;
+  background: #A801F0;
+  border-radius: .95rem;
+  margin: 0;
+}
